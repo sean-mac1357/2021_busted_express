@@ -2,11 +2,11 @@
   "name": "apple_ceos_v1",
   "version": "1.0.0",
   "description": "Express App to display a list of Apple CEOs, this is v1",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemo app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Sean R Reid",
@@ -14,5 +14,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-es6-template-engine": "^2.2.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-mac1357/2021_busted_express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sean-mac1357/2021_busted_express/issues"
+  },
+  "homepage": "https://github.com/sean-mac1357/2021_busted_express#readme"
 }
